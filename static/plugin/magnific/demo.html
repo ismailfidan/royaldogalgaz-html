@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Magnific Example</title>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+
+	<script type="text/javascript" src="jquery.magnific-popup.min.js"></script>
+	<link rel="stylesheet" href="magnific-popup.css" />
+
+	<script type="text/javascript">
+		$(function(){
+
+			$('.magnific').magnificPopup({
+				type: 'image',
+				image: {
+					verticalFit: false
+				},
+				gallery:{
+					enabled:true
+					}
+			});
+
+			$('.magnific-group').each(function() { // the containers for all your galleries
+		        $(this).magnificPopup({
+		            delegate: 'a', // the selector for gallery item
+		            type: 'image',
+		            image: {
+		                verticalFit: false
+		            },
+		            gallery: {
+		                enabled:true
+		            }
+		        });
+	    	});
+
+		});
+	</script>
+
+</head>
+<body>
+
+	<p>Grup popup</p>
+	<div class="magnific-group">
+		<a href="http://placehold.it/800x550" title="" class="magnific"><img src="http://placehold.it/180x110" alt="" class="img-responsive"/></a>
+		<a href="http://placehold.it/800x550" title="" class="magnific"><img src="http://placehold.it/180x110" alt="" class="img-responsive"/></a>
+		<a href="http://placehold.it/800x550" title="" class="magnific"><img src="http://placehold.it/180x110" alt="" class="img-responsive"/></a>
+	</div>
+
+	<p>Tekli popup</p>
+	<a href="http://placehold.it/800x550" title="" class="magnific"><img src="http://placehold.it/180x110" alt="" class="img-responsive"/></a>
+	<a href="http://placehold.it/800x550" title="" class="magnific"><img src="http://placehold.it/180x110" alt="" class="img-responsive"/></a>
+	<a href="http://placehold.it/800x550" title="" class="magnific"><img src="http://placehold.it/180x110" alt="" class="img-responsive"/></a>
+
+</body>
+</html>

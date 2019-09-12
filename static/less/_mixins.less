@@ -1,0 +1,113 @@
+///////////////////////////////////////////////////////
+// Project   :  Global Mixin Packs ////////////////////
+// Version   :  v.1 ///////////////////////////////////
+// Creation  :  Jan, 2019 /////////////////////////////
+// Author    :  Ismail FIDAN //////////////////////////
+// Web Site  :  www.tekfikir.com - www.psdizayn.com ///
+// E-Mail    :  info@tekfikir.com /////////////////////
+///////////////////////////////////////////////////////
+
+.animate(@time: .2s) {
+	-webkit-transition: all @time;
+	-moz-transition: all @time;
+	-o-transition: all @time;
+	transition: all @time;
+}
+
+.radius(@topleft: 0px, @topright: 0px, @bottomright: 0px, @bottomleft: 0px) {
+	-webkit-border-radius: @topleft @topright @bottomright @bottomleft;
+	-moz-border-radius: @topleft @topright @bottomright @bottomleft;
+	border-radius: @topleft @topright @bottomright @bottomleft;
+}
+
+.radiusFull(@radius: 100%) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.text-shadow(@hoff:5px, @voff: 5px, @blur: 5px, @color:#000000) {
+	text-shadow: @hoff @voff @blur @color;
+}
+
+.box-shadow (@x: 0px, @y: 0px, @blur: 0px, @color: #000000) {
+	-webkit-box-shadow: @x @y @blur @color;
+	-moz-box-shadow: @x @y @blur @color;
+	box-shadow: @x @y @blur @color;
+}
+
+.scale(@scale-zoom: 1) {
+	-webkit-transform: scale(@scale-zoom);
+	-ms-transform: scale(@scale-zoom);
+	-o-transform: scale(@scale-zoom);
+	transform: scale(@scale-zoom);
+}
+
+.blur(@blur:0px) {
+	-webkit-filter: blur(@blur);
+	filter: blur(@blur);
+}
+
+.grayscale(@value) {
+	-webkit-filter: grayscale(@value);
+	filter: grayscale(@value);
+}
+
+.sepia(@value) {
+	-webkit-filter: sepia(@value);
+	filter: sepia(@value);
+}
+
+.opacity(@value) {
+	-webkit-filter: opacity(@value);
+	filter: opacity(@value);
+}
+
+.rotate(@rotate) {
+	-webkit-transform: rotate(@rotate);
+	-moz-transform: rotate(@rotate);
+	-ms-transform: rotate(@rotate);
+	-o-transform: rotate(@rotate);
+	transform: rotate(@rotate);
+}
+
+.gradientX(@startColor: #333333, @endColor: #666666) {
+	background: rgb(@startColor);
+	background: -moz-linear-gradient(left, rgb(@startColor) 0%, rgb(@endColor) 100%);
+	background: -webkit-linear-gradient(left, rgb(@startColor) 0%, rgb(@endColor) 100%);
+	background: linear-gradient(to right, rgb(@startColor) 0%, rgb(@endColor) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='' @startColor '', endColorstr='' @endColor '', GradientType=1);
+}
+
+.gradientY(@startColor: #333333, @endColor: #666666) {
+	background: rgb(@startColor);
+	background: -moz-linear-gradient(top, rgb(@startColor) 0%, rgb(@endColor) 100%);
+	background: -webkit-linear-gradient(top, rgb(@startColor) 0%, rgb(@endColor) 100%);
+	background: linear-gradient(to bottom, rgb(@startColor) 0%, rgb(@endColor) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='' @startColor '', endColorstr='' @endColor '', GradientType=0);
+}
+
+.gradientX-reflected(@first-color: #333, @second-color: #444, @third-color: #555) {
+	background: rgb(@first-color);
+	background: -moz-linear-gradient(left, rgb(@first-color) 1%, rgb(@second-color) 50%, rgb(@third-color) 100%);
+	background: -webkit-linear-gradient(left, rgb(@first-color) 1%, rgb(@second-color) 50%, rgb(@third-color) 100%);
+	background: linear-gradient(to right, rgb(@first-color) 1%, rgb(@second-color) 50%, rgb(@third-color) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='' @first-color '', endColorstr='' @third-color '', GradientType=1);
+}
+
+
+
+
+
+@yellow-l2 : #f1e592;
+@yellow-l : #f3df56;
+@yellow : #ffd800;
+@yellow-d : #e1c007;
+@yellow-d2 : #c2a60c;
+
+@gray-l2 : #6a6b66;
+@gray-l : #50514c;
+@gray : #3f403c;
+@gray-d : #2c2d29;
+@gray-d2 : #181916;
+

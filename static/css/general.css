@@ -1,0 +1,375 @@
+/* Gilroy Regular */
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url('../fonts/gilroy/Gilroy-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Regular Italic */
+@font-face {
+  font-family: 'Gilroy Regular Italic';
+  src: url('../fonts/gilroy/Gilroy-RegularItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Medium */
+@font-face {
+  font-family: 'Gilroy Medium';
+  src: url('../fonts/gilroy/Gilroy-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Medium Italic */
+@font-face {
+  font-family: 'Gilroy Medium Italic';
+  src: url('../fonts/gilroy/Gilroy-MediumItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Semibold*/
+@font-face {
+  font-family: 'Gilroy Semibold';
+  src: url('../fonts/gilroy/Gilroy-SemiBold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Semibold Italic*/
+@font-face {
+  font-family: 'Gilroy Semibold Italic';
+  src: url('../fonts/gilroy/Gilroy-SemiBoldItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Bold */
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('../fonts/gilroy/Gilroy-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Bold Italic */
+@font-face {
+  font-family: 'Gilroy Bold Italic';
+  src: url('../fonts/gilroy/Gilroy-BoldItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Extra Bold */
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  src: url('../fonts/gilroy/Gilroy-ExtraBold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gilroy Extra Bold Italic */
+@font-face {
+  font-family: 'Gilroy Extrabold Italic';
+  src: url('../fonts/gilroy/Gilroy-ExtraBoldItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Icon Fonts */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icons/icomoon.eot?qmhsuw');
+  src: url('../fonts/icons/icomoon.eot?qmhsuw#iefix') format('embedded-opentype'), url('../fonts/icons/icomoon.ttf?qmhsuw') format('truetype'), url('../fonts/icons/icomoon.woff?qmhsuw') format('woff'), url('../fonts/icons/icomoon.svg?qmhsuw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon', sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-build:before {
+  content: "\e900";
+}
+.icon-call:before {
+  content: "\e901";
+}
+.icon-check-form:before {
+  content: "\e902";
+}
+.icon-clock:before {
+  content: "\e903";
+}
+.icon-comment:before {
+  content: "\e904";
+}
+.icon-group:before {
+  content: "\e905";
+}
+.icon-help:before {
+  content: "\e906";
+}
+.icon-news:before {
+  content: "\e907";
+}
+.icon-play:before {
+  content: "\e908";
+}
+.icon-questions:before {
+  content: "\e909";
+}
+.icon-support:before {
+  content: "\e90a";
+}
+.icon-team-2:before {
+  content: "\e90b";
+}
+.icon-team:before {
+  content: "\e90c";
+}
+.icon-settings:before {
+  content: "\e90d";
+}
+/* General */
+.clearboth {
+  clear: both;
+}
+.relative {
+  position: relative;
+}
+.tooltip {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+a,
+.btn,
+button {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+.shower {
+  display: block;
+}
+.hider {
+  display: none;
+}
+/* Topic */
+.topic h1,
+.topic h2,
+.topic h3,
+.topic h4,
+.topic h5,
+.topic h6,
+.topic p,
+.topic ul,
+.topic ol {
+  margin-bottom: 20px;
+  font-family: 'Gilroy Medium', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #171721;
+  letter-spacing: -0.02em;
+}
+.topic h1 a,
+.topic h2 a,
+.topic h3 a,
+.topic h4 a,
+.topic h5 a,
+.topic h6 a,
+.topic p a,
+.topic ul a,
+.topic ol a {
+  color: #27274e;
+  border-bottom: 1px dotted #ccc;
+}
+.topic h1 a:hover,
+.topic h2 a:hover,
+.topic h3 a:hover,
+.topic h4 a:hover,
+.topic h5 a:hover,
+.topic h6 a:hover,
+.topic p a:hover,
+.topic ul a:hover,
+.topic ol a:hover {
+  opacity: 0.8;
+}
+.topic h1.h1-title,
+.topic h1,
+.topic h2,
+.topic h3,
+.topic h4,
+.topic h5,
+.topic h6 {
+  font-family: 'Gilroy Extrabold', sans-serif;
+  color: #171721;
+}
+.topic h1.h1-title,
+.topic h1 {
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 15px;
+}
+.topic h2 {
+  font-size: 26px;
+  line-height: 30px;
+}
+.topic h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.topic h4 {
+  font-size: 22px;
+  line-height: 26px;
+}
+.topic h5 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.topic h6 {
+  font-size: 18px;
+  line-height: 22px;
+}
+.topic p {
+  color: #2c2c2c;
+}
+.topic img.page-image {
+  margin-bottom: 25px;
+  width: 100%;
+}
+.topic ul {
+  margin-left: 30px;
+}
+.topic ul li {
+  margin-bottom: 10px;
+}
+.topic ul li::before {
+  content: '\f0da';
+  font-family: 'Font Awesome 5 Free', sans-serif;
+  font-weight: 900;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: -1px;
+}
+.topic ol {
+  margin-left: 45px;
+  list-style-type: decimal;
+}
+.topic ol li::before {
+  font-family: 'Icons', sans-serif;
+  margin-right: 10px;
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.topic hr {
+  border-width: 3px;
+  border-color: #c8e0e5;
+  margin: 30px 0;
+}
+.topic .publish-info {
+  margin-bottom: 25px;
+}
+.topic .publish-info ul {
+  margin: 0;
+}
+.topic .publish-info ul li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  font: normal 14px/14px 'Gilroy Extrabold', sans-serif;
+}
+.topic .publish-info ul li:before {
+  display: none;
+}
+.topic .publish-info ul li a {
+  background-color: #ffd800;
+  color: #333;
+  display: block;
+  padding: 7px 10px 5px;
+}
+.topic .large-image {
+  margin-bottom: 25px;
+}
+/* Listing Photos */
+.listing-photos .item {
+  margin-bottom: 30px;
+}
+.listing-photos .item a {
+  display: block;
+  position: relative;
+  border: 2px solid #fff;
+  background-color: #0c69b7;
+  overflow: hidden;
+}
+.listing-photos .item a:before {
+  content: '';
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0c69b7;
+  -webkit-filter: opacity(0);
+  filter: opacity(0);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.listing-photos .item a:after {
+  content: '\f31e';
+  font-family: 'Font Awesome 5 Free', sans-serif;
+  font-weight: 900;
+  border: 2px solid #fff;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  margin-left: -30px;
+  top: 50%;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 28px;
+  padding: 14px 0 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.listing-photos .item a:hover:before {
+  -webkit-filter: opacity(0.3);
+  filter: opacity(0.3);
+}
+.listing-photos .item a:hover:after {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.listing-photos .item a img {
+  width: 100%;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/*# sourceMappingURL=general.css.map */

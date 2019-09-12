@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>xTab Menu</title>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+
+	<script type="text/javascript" src="jquery.xtab.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+
+			$("ul.xtab-menu").xTab({
+				'contentClass':'xtab-menu-content',
+				'activeClass': 'active'
+			});
+
+
+		});
+	</script>
+
+</head>
+<body>
+
+
+	<ul class="xtab-menu">
+		<li>Menü 1</li>
+		<li>Menü 2</li>
+		<li>Menü 3</li>
+	</ul>
+
+	<div class="xtab-menu-content">Menü 1 içeriği</div>
+	<div class="xtab-menu-content">Menü 2 içeriği</div>
+	<div class="xtab-menu-content">Menü 3 içeriği</div>
+
+
+</body>
+</html>
